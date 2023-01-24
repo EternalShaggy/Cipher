@@ -5,7 +5,7 @@ pattern="[A-Z]"
 
 def message_decipherer():
     deciphered_message = ""
-    m = input("Enter the text you want to decipher")
+    m = input("Enter the text you want to decipher ")
     filepath = filedialog.askopenfilename(initialdir="Cipher\\cipherkeys", 
     title="Choose a cipher key.",
     filetypes = (("json files", "*.json"),("all files", "*.*")))
